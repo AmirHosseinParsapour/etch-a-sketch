@@ -1,6 +1,9 @@
 :root{
   --grid-size: 16;
 }
+html{
+  background-color: #7bf2fc;
+}
 .container{
   background-color: blue;
   width: 75vmin;
