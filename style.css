@@ -1,0 +1,11 @@
+:root{
+  --grid-size: 16;
+}
+.container{
+  background-color: blue;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(var(--grid-size), 1fr);
+  grid-template-rows: repeat(var(--grid-size), 1fr);
+}
