@@ -6,9 +6,19 @@
     <title></title>
   </head>
   <body>
-    <button type="button" name="button" id="generate">Get New Grid</button>
+    <div class="controls">
+      <select class="grid-size" name="grid-size" id="grid-size">
+        <option value="16">16*16</option>
+        <option value="32">32*32</option>
+        <option value="64">64*64</option>
+        <option value="128">128*128</option>
+        <option value="256">256*256</option>
+      </select>
+      <button type="button" name="button" id="generate">Get New SketchPad</button>
+      <input type="color" name="color" value="#000" id='color'>
+      <button type="button" name="button" id="random">Random Color</button>
+    </div>
     <div class="container">
-
     </div>
   </body>
   <script src="script.js" charset="utf-8"></script>

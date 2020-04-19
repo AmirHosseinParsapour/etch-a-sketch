@@ -3,9 +3,21 @@
 }
 .container{
   background-color: blue;
-  width: 500px;
-  height: 500px;
+  width: 75vmin;
+  height: 75vmin;
   display: grid;
   grid-template-columns: repeat(var(--grid-size), 1fr);
   grid-template-rows: repeat(var(--grid-size), 1fr);
+  margin: auto;
+}
+.controls{
+  display: flex;
+  margin: auto;
+  width: 80vmin;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  background-color:  #ffaa76;
 }
